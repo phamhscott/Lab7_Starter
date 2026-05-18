@@ -1,3 +1,5 @@
+Scott Pham
+
 1. I would fit the automated tests within a GitHub action that runs whenever code is pushed (Option 1). By running tests automatically on every push, this ensures that new changes don't compromise functionality immediately. This also describes Continuous Integration (CI), providing an independent environment for testing and avoiding situations where the software only functions on one's local machine. Furthermore, this catches bugs as soon as they are introduced, making it easier to fix than if they were discovered later on. By using a GitHub action, the team members can be confident in merging code becaus eit passes the required quality checks.
 
 2. No I would not use an end to end test to check if a function is returning the correct output. This describes unit testing, not E2E testing which focuses on testing the entire user journey and workflow from start to finish.
